@@ -16,6 +16,7 @@
 		D53BFAC21C6E40340001C659 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D53BFAC01C6E40340001C659 /* LaunchScreen.storyboard */; };
 		D53BFACD1C6E40340001C659 /* VultusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D53BFACC1C6E40340001C659 /* VultusTests.m */; };
 		D53BFAD81C6E40340001C659 /* VultusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D53BFAD71C6E40340001C659 /* VultusUITests.m */; };
+		D53BFB291C6FC9B20001C659 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D53BFB281C6FC9B20001C659 /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		D53BFAD31C6E40340001C659 /* VultusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VultusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D53BFAD71C6E40340001C659 /* VultusUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VultusUITests.m; sourceTree = "<group>"; };
 		D53BFAD91C6E40340001C659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D53BFB271C6FC9B20001C659 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		D53BFB281C6FC9B20001C659 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 		D53BFAAF1C6E40340001C659 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D53BFB271C6FC9B20001C659 /* SWRevealViewController.h */,
+				D53BFB281C6FC9B20001C659 /* SWRevealViewController.m */,
 				D53BFAB01C6E40340001C659 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -278,6 +283,7 @@
 			files = (
 				D53BFAB71C6E40340001C659 /* ViewController.m in Sources */,
 				D53BFAB41C6E40340001C659 /* AppDelegate.m in Sources */,
+				D53BFB291C6FC9B20001C659 /* SWRevealViewController.m in Sources */,
 				D53BFABD1C6E40340001C659 /* Vultus.xcdatamodeld in Sources */,
 				D53BFAB11C6E40340001C659 /* main.m in Sources */,
 			);
@@ -503,6 +509,7 @@
 				D53BFADE1C6E40340001C659 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D53BFADF1C6E40340001C659 /* Build configuration list for PBXNativeTarget "VultusTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +518,7 @@
 				D53BFAE11C6E40340001C659 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D53BFAE21C6E40340001C659 /* Build configuration list for PBXNativeTarget "VultusUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +527,7 @@
 				D53BFAE41C6E40340001C659 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
